@@ -1,0 +1,17 @@
+{
+  "common.address": "주소",
+  "common.bank": "은행",
+  "common.bankAccount": "계좌번호",
+  "common.cancel": "취소",
+  "common.save.success.title": "성공! 데이터가 성공적으로 저장되었습니다.",
+  "common.save.fail.title": "실패! 데이터가 저장되지 않았습니다.",
+  "common.company": "회사",
+  "common.customer": "고객",
+  "common.delete": "삭제",
+  "common.detail": "상세정보",
+  "common.developer": "개발자",
+  "common.edit": "수정",
+  "common.email": "이메일",
+  "common.employee": "직원",
+  "user.userProfile": "회원 세부정보"
+}
