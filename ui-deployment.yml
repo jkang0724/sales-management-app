@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sales-management-ui
+  namespace: sales
+  labels:
+    app: sales-management-ui
+spec:
+  selector:
+    matchLabels:
+      app: sales-management-ui
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: sales-management-ui
+    spec:
+      nodeSelector:
+        "kubernetes.io/os": linux
+      containers:
+        - name: sales-management-ui
+          image: acrsalesdev.azurecr.io/sales-management-ui:3.0
+          resources:
+            limits:
+              memory: "64Mi"
+              cpu: "100m"
+          ports:
+            - containerPort: 3000
+          env:
+            - name: REACT_APP_API_URL
+              value: "http://52.188.220.250:4000"
