@@ -2,6 +2,14 @@
 
 <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" height="20" /><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" height="20" /><img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" height="20" /><img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" height="20" /><img src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white" height="20" /><img src="https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white" height="20" /><img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" height="20" /><img src="https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white" height="20" /><img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" height="20" /><img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" height="20" />
 
+## Important Notice
+
+#### As demonstration purpose, most features and functionalities are removed and still you are able to examine how UI and BFF work interactively.
+
+---
+
+---
+
 This **React** application is an advanced employee and project **sales management system**, offering a highly intuitive interface for streamlined data management. Users can view, add, edit, or remove companies, employees, projects, invoices, and their correlations. Some of the key features include:
 
 - Powered by **React** and **Redux** for efficient state management, the app implements **React Router** to ensure seamless navigation between pages.
@@ -168,4 +176,11 @@ The application uses environment variables with the "REACT_APP\_" prefix. Please
 
 ## Screenshots
 
-<!-- Screenshots to be added -->
+- Company List Page
+
+![Company List page](/resource/screenshot1.jpg "Company List page")
+
+
+- Company Edit mode Modal
+
+![Company Edit popup](/resource/screenshot2.jpg "Company Edit popup")
