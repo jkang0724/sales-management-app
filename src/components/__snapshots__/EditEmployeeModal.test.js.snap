@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Employee add/edit modal does not render if isOpen is false (snapshot) 1`] = `
+<body
+  class=""
+>
+  <div />
+  <div
+    class="ReactModalPortal"
+  />
+</body>
+`;
+
+exports[`Employee add/edit modal renders correctly if isOpen is true (snapshot) 1`] = `
+<body
+  class="ReactModal__Body--open"
+>
+  <div
+    data-react-modal-body-trap=""
+    style="position: absolute; opacity: 0;"
+    tabindex="0"
+  />
+  <div />
+  <div
+    data-react-modal-body-trap=""
+    style="position: absolute; opacity: 0;"
+    tabindex="0"
+  />
+  <div
+    class="ReactModalPortal"
+  >
+    <div
+      class="ReactModal__Overlay"
+      style="position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; background-color: rgba(0, 0, 0, 0);"
+    >
+      <div
+        aria-modal="true"
+        class="ReactModal__Content"
+        role="dialog"
+        style="position: absolute; top: 50%; left: 50%; right: 40px; bottom: 40px; border: 1px solid #ccc; background: rgb(255, 255, 255); overflow: hidden; border-radius: 4px; outline: none; padding: 50px; transform: translate(-50%, -50%); background-color: rgb(242, 242, 242); width: 600px; height: 700px;"
+        tabindex="-1"
+      >
+        <h2
+          class="sc-ieZDjg"
+        >
+          Add Employee
+        </h2>
+        <form
+          class="sc-dKfzgJ cNySv"
+        >
+          <div
+            class="sc-hIqOWS gCIqHd"
+          >
+            <label
+              class="sc-kgKVFY cFDJdo"
+              for="name-input"
+            >
+              Name
+              :
+            </label>
+            <input
+              class="sc-fLQRDB jZuORq"
+              id="name-input"
+              name="name"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="sc-hIqOWS gCIqHd"
+          >
+            <label
+              class="sc-kgKVFY cFDJdo"
+              for="type-input"
+            >
+              Type
+              :
+            </label>
+            <select
+              class="sc-ivnCJf icZrZm"
+              id="type-input"
+              name="type"
+            >
+              <option
+                value="Fulltime"
+              >
+                Fulltime
+              </option>
+              <option
+                value="Free lancer"
+              >
+                Free lancer
+              </option>
+            </select>
+          </div>
+          <div
+            class="sc-hIqOWS gCIqHd"
+          >
+            <label
+              class="sc-kgKVFY cFDJdo"
+              for="company-name"
+            >
+              Current Company
+              :
+            </label>
+            <div
+              class="sc-iKGpAt kkOIKm"
+              id="company-name"
+            />
+          </div>
+          <div
+            class="sc-bALXmG hjfmGe"
+          >
+            <div
+              class="sc-hIqOWS gCIqHd"
+            >
+              <label
+                class="sc-kgKVFY cFDJdo"
+                for="bank-input"
+              >
+                Bank
+                :
+              </label>
+              <input
+                class="sc-fLQRDB fjlVaF"
+                id="bank-input"
+                name="bank"
+                type="text"
+                value=""
+                width="100px"
+              />
+            </div>
+            <div
+              class="sc-hIqOWS gCIqHd"
+            >
+              <label
+                class="sc-kgKVFY cFDJdo"
+                for="bankAccount-input"
+              >
+                Account No
+                :
+              </label>
+              <input
+                class="sc-fLQRDB jZuORq"
+                id="bankAccount-input"
+                name="bankAccount"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="sc-hIqOWS gCIqHd"
+          >
+            <label
+              class="sc-kgKVFY cFDJdo"
+              for="ssn-input"
+            >
+              Social Security Number
+              :
+            </label>
+            <input
+              class="sc-fLQRDB jZuORq"
+              id="ssn-input"
+              name="ssn"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="sc-hIqOWS gCIqHd"
+          >
+            <label
+              class="sc-kgKVFY cFDJdo"
+              for="phone-input"
+            >
+              Phone Number
+              :
+            </label>
+            <input
+              class="sc-fLQRDB jZuORq"
+              id="phone-input"
+              name="phoneNo"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="sc-hIqOWS gCIqHd"
+          >
+            <label
+              class="sc-kgKVFY cFDJdo"
+              for="email-input"
+            >
+              Email
+              :
+            </label>
+            <input
+              class="sc-fLQRDB jZuORq"
+              id="email-input"
+              name="email"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="sc-hIqOWS gCIqHd"
+          >
+            <label
+              class="sc-kgKVFY cFDJdo"
+              for="status-input"
+            >
+              Status
+              :
+            </label>
+            <select
+              class="sc-ivnCJf icZrZm"
+              id="status-input"
+              name="status"
+            >
+              <option
+                value="Active"
+              >
+                Active
+              </option>
+              <option
+                value="Inactive"
+              >
+                Inactive
+              </option>
+            </select>
+          </div>
+        </form>
+        <div
+          class="sc-gjTGSA daQioi"
+        >
+          <button
+            class="sc-lnAgIa ccHiIQ"
+          >
+            Save
+          </button>
+          <button
+            class="sc-lnAgIa howPvb"
+          >
+            Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

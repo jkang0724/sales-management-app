@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompanyList component renders correctly (snapshot) 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-beqWaB emoJJV"
+  >
+    <div
+      class="sc-gueYoa iSQzNb"
+    >
+      Company List
+    </div>
+    <div
+      class="sc-dmqHEX hWQUdK"
+    >
+      <div
+        class="sc-eDDNvR josrsN"
+      >
+        <label
+          class="sc-jTrPJq AbKrO"
+          for="search-input"
+        >
+          Search by keyword:
+        </label>
+        <input
+          class="sc-fsQiph fKUlxf"
+          id="search-input"
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        class="sc-fbJfA jwJQpN"
+        width="150px"
+      >
+        Add Company
+      </button>
+    </div>
+    <table
+      class="sc-qRumB gPgA-dJ"
+    >
+      <thead>
+        <tr>
+          <th
+            class="sc-jsMahE gsLXxD"
+          >
+            Name
+          </th>
+          <th
+            class="sc-jsMahE gsLXxD"
+          >
+            Company Type
+          </th>
+          <th
+            class="sc-jsMahE dMhOKw"
+            width="430px"
+          >
+            Address
+          </th>
+          <th
+            class="sc-jsMahE gsLXxD"
+          >
+            Registration Number
+          </th>
+          <th
+            class="sc-jsMahE gsLXxD"
+          >
+            Phone number
+          </th>
+          <th
+            class="sc-jsMahE gsLXxD"
+          >
+            Status
+          </th>
+          <th
+            class="sc-jsMahE gsLXxD"
+          >
+            Edit / Delete
+          </th>
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+  </div>
+</DocumentFragment>
+`;
